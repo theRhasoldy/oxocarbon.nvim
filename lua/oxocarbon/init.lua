@@ -6,7 +6,7 @@ else
 end
 vim.g["colors_name"] = "oxocarbon"
 vim.o["termguicolors"] = true
-local base00 = "#161616"
+local base00 = "#121212"
 local base06 = "#ffffff"
 local base09 = "#78a9ff"
 local oxocarbon = (
@@ -418,4 +418,3 @@ vim.api.nvim_set_hl(0, "VimwikiList", { link = "markdownListMarker" })
 vim.api.nvim_set_hl(0, "VimwikiLink", { link = "markdownUrl" })
 vim.api.nvim_set_hl(0, "VimwikiCode", { link = "markdownCode" })
 return { oxocarbon = oxocarbon }
-
