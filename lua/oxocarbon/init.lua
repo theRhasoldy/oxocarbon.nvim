@@ -8,7 +8,7 @@ vim.g["colors_name"] = "oxocarbon"
 vim.o["termguicolors"] = true
 local base00 = "#121212"
 local base06 = "#ffffff"
-local base09 = "#78a9ff"
+local base09 = "#DB5ABA"
 local oxocarbon = (
 	(
 		(vim.o.background == "dark")
@@ -28,7 +28,7 @@ local oxocarbon = (
 			base12 = "#ff7eb6",
 			base13 = "#42be65",
 			base14 = "#be95ff",
-			base15 = "#82cfff",
+			base15 = "#DB5ABA",
 			blend = "#121212",
 			none = "NONE",
 		}
